@@ -6,7 +6,7 @@ import { connectDB, PORT } from '../config';
 
 import { routes } from './routes';
 
-const debug: Debug.IDebugger = Debug('retail:app');
+const debug: Debug.IDebugger = Debug('app');
 
 const app: express.Application = express();
 // Database connection
