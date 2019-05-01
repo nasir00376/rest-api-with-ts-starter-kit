@@ -1,6 +1,6 @@
 import * as Debug from 'debug';
 
-import { BadRequestResult } from '../../build/shared/errors';
+import { BadRequestResult } from '../../shared/errors';
 
 import { City } from './cities.interfaces';
 import { CitiesRepository } from './cities.repository';
