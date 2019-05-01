@@ -2391,12 +2391,11 @@ sequelize-pool@^1.0.2:
   dependencies:
     bluebird "^3.5.3"
 
-sequelize-typescript@^1.0.0-alpha.9:
-  version "1.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/sequelize-typescript/-/sequelize-typescript-1.0.0-alpha.9.tgz#133310f2e9b4b050a0b45faa05b0efe3cc221408"
-  integrity sha512-YG2jClu1cILs/lZiYSpWwTzUKfC19aiZvzt1b9KIXoUX/ojwL2oXPMs+n2AGhdGLpIvoj6TBK7fNfeRvnHJnxA==
+sequelize-typescript@^1.0.0-beta.2:
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/sequelize-typescript/-/sequelize-typescript-1.0.0-beta.2.tgz#fd9ae47ecf8b159e32e19c1298426cc9773cebd8"
+  integrity sha512-Iu67kF/RunoeBQBsU5llViJkxAHBVmeS9DBP+eC63hkEwxeDGZgxOkodyW5v5k3h2DJ0MBO+clRURXoDb+/OHg==
   dependencies:
-    "@types/node" "*"
     glob "7.1.2"
 
 sequelize@^5.8.1:

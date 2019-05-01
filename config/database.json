@@ -1,0 +1,10 @@
+{
+    "development": {
+        "dialect": "mysql",
+        "username": "root",
+        "password": null,
+        "host": "localhost",
+        "port": "",
+        "database": "ts-starter"
+    }
+}

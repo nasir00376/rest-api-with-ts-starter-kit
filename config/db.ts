@@ -1,7 +1,10 @@
 import * as Debug from 'debug';
 
-const debug: Debug.IDebugger = Debug('retail:db');
+import { sequelize } from './sequelize';
+
+const debug: Debug.IDebugger = Debug('starter-kit:db');
 
 export async function connectDB(): Promise<void> {
+    await sequelize.sync({ force: true });
     debug('Database connected successfully');
 }
