@@ -21,6 +21,7 @@
         "suppressImplicitAnyIndexErrors": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
+        "noDefaultExport": false
     },
     "exclude": [
         "node_modules",

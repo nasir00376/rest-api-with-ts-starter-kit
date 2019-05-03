@@ -51,6 +51,7 @@
 			true,
 			"check-format",
 			"allow-leading-underscore"
-		]
+		],
+		"no-default-export": false
 	}
 }
